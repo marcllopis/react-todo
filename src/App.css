@@ -5,6 +5,39 @@
   margin-top: 30px;
 }
 
+.flex-it {
+  display: flex;
+  justify-content: center;
+}
+
+.filter-container {
+  margin-top: 40px;
+  padding: 10px;
+  min-width: 20%;
+  border: 1px solid #057fd0;
+  border-radius: 10px;
+  font-family: 'Gochi Hand', cursive;
+}
+
+.filter-text {
+  text-align: left;
+  margin-left: 10px;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.filter-text:hover {
+  background-color: #84bbf3;
+  cursor: pointer;
+}
+
+.no-todos-text {
+  font-family: 'Gochi Hand', cursive;
+  font-size: 40px;
+  text-align: center;
+}
+
 .input-todo {
   border: 0px solid white;
   border-bottom: 1px solid #057fd0;
@@ -12,6 +45,16 @@
   height: 50px;
   font-family: 'Gochi Hand', cursive;
   font-size: 40px;
+  letter-spacing: 5px;
+  padding: 5px;
+}
+
+.select-category {
+  border: 0px solid white;
+  border-bottom: 1px solid #057fd0;
+  background-color: white;
+  font-family: 'Gochi Hand', cursive;
+  font-size: 20px;
   letter-spacing: 5px;
   padding: 5px;
 }
@@ -32,13 +75,17 @@
   justify-content: center;
   flex-direction: column;
   margin-top: 30px;
-  margin-left: 25%;
-  margin-right: 10%;
+  min-width: 60%;
 }
 
 .todo-text {
   font-family: 'Gochi Hand', cursive;
   font-size: 50px;
+}
+
+.no-category-text {
+  font-family: 'Gochi Hand', cursive;
+  font-size: 45px;
 }
 
 .single-todo-button {
@@ -65,6 +112,11 @@
 .single-todo-button:active {
 	position:relative;
 	top:1px;
+}
+
+.category-text {
+  font-style: italic;
+  color: #84bbf3;
 }
 
 .button-todo{
@@ -95,4 +147,3 @@
 	position:relative;
 	top:1px;
 }
-
